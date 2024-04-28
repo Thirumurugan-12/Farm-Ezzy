@@ -2,6 +2,14 @@
 
 Welcome to FarmEzzy! This project aims to revolutionize agricultural practices by leveraging cutting-edge technology to assist farmers in various aspects of crop management and market analysis.
 
+![Screenshot (1062)](https://github.com/Thirumurugan-12/Farm-Ezzy/assets/76591903/3d2dc371-6d4b-4e5f-be62-ec7ec6b04017)
+![Screenshot (1063)](https://github.com/Thirumurugan-12/Farm-Ezzy/assets/76591903/3aa0cf3f-32da-43f0-a4b3-72a67bce91c7)
+![Screenshot (1064)](https://github.com/Thirumurugan-12/Farm-Ezzy/assets/76591903/e2db4f4f-7635-45a2-9f66-c8ddd21de2e3)
+![Screenshot (1065)](https://github.com/Thirumurugan-12/Farm-Ezzy/assets/76591903/8f312441-3d60-40e2-9bb5-afc1025fc0cd)
+![Screenshot (1066)](https://github.com/Thirumurugan-12/Farm-Ezzy/assets/76591903/0c39993e-1379-4839-a762-699673b705cf)
+![Screenshot (1067)](https://github.com/Thirumurugan-12/Farm-Ezzy/assets/76591903/26083f32-4784-4abb-b7ac-0e9f1ab4da8b)
+![Screenshot (1068)](https://github.com/Thirumurugan-12/Farm-Ezzy/assets/76591903/267964ef-d0ab-4cf7-8904-0a89a0513a57)
+
 ## Project Overview:
 
 FarmEzzy consists of four main components:
