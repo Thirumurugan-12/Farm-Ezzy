@@ -32,23 +32,28 @@ def get_records(records):
         min_price = record['min_price']
         max_price = record['max_price']
         modal_price = record['modal_price']
-        print(f"{sr}, {state}, {districts}, {market}, {commodity}, {variety}, {min_price}, {max_price}, {modal_price}")
         dt.append([sr, state, districts, market, commodity, variety, min_price, max_price, modal_price])
 
     return dt
-# Additional functions like search and state can be implemented similarly using Python logic.
 
 # Check if the request was successful
 if response.status_code == 200:
     data = response.json()
-    print(data)
     # Call functions to process data
     get_date(data['updated_date'])
     get_desc(data['desc'])
 
-    state_sel = st.selectbox("Select State",set(data['records'][i]['state'] for i in range(len(data['records']))))
+    # Get unique states from the data
+    states = set(record['state'] for record in data['records'])
 
-    df = get_records(data['records'])
+    # Select a state from the dropdown
+    state_sel = st.selectbox("Select State", sorted(states))
+
+    # Filter records based on the selected state
+    filtered_records = [record for record in data['records'] if record['state'] == state_sel]
+
+    # Process and display filtered records
+    df = get_records(filtered_records)
     st.table(df)
 else:
     print("Failed to fetch data from the API.")
