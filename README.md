@@ -51,8 +51,10 @@ We welcome contributions from the community to enhance FarmEzzy further. If you'
 
 This project is licensed under the [MIT License](LICENSE), which means you are free to use, modify, and distribute the code for both commercial and non-commercial purposes. See the LICENSE file for more details.
 
+
+
 ## Contact:
 
-If you have any questions, feedback, or suggestions, feel free to reach out to us at (a.thirumurugan1211@gmail.com). We'd love to hear from you!
+If you have any questions, feedback, or suggestions, feel free to reach out to us at (a.thirumurugan1211@gmail.com). We'd love to hear more from you!
 
 Happy farming with FarmEzzy!
